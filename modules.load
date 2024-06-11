@@ -84,6 +84,7 @@ extra/private/google-modules/soc/gs/drivers/tty/serial/exynos_tty.ko
 extra/private/google-modules/soc/gs/drivers/iommu/samsung-iommu-group.ko
 extra/private/google-modules/soc/gs/drivers/iommu/samsung-secure-iova.ko
 extra/private/google-modules/soc/gs/drivers/iommu/samsung_iommu_v9.ko
+extra/private/google-modules/soc/gs/drivers/iommu/exynos-pcie-iommu.ko
 extra/private/google-modules/soc/gs/drivers/gpu/exynos/g2d/g2d.ko
 extra/private/google-modules/soc/gs/drivers/misc/s5910/s5910.ko
 extra/private/google-modules/soc/gs/drivers/misc/sbb-mux/sbb-mux.ko
@@ -126,11 +127,12 @@ extra/private/google-modules/soc/gs/drivers/watchdog/s3c2410_wdt.ko
 extra/private/google-modules/soc/gs/drivers/cpufreq/exynos-acme.ko
 extra/private/google-modules/soc/gs/drivers/clocksource/exynos_mct_v3.ko
 extra/private/google-modules/soc/gs/drivers/devfreq/google/exynos_devfreq.ko
-extra/private/google-modules/soc/gs/drivers/devfreq/google/arm-memlat-mon.ko
-extra/private/google-modules/soc/gs/drivers/devfreq/google/governor_memlat.ko
-extra/private/google-modules/soc/gs/drivers/devfreq/google/governor_dsulat.ko
-extra/private/google-modules/soc/gs/drivers/devfreq/google/memlat-devfreq.ko
-extra/private/google-modules/soc/gs/drivers/devfreq/google/dsulat-devfreq.ko
+extra/private/google-modules/soc/gs/drivers/performance/gs_perf_mon/gs_perf_mon.ko
+extra/private/google-modules/soc/gs/drivers/performance/lat_governors/gs_governor_memlat.ko
+extra/private/google-modules/soc/gs/drivers/performance/lat_governors/gs_governor_dsulat.ko
+extra/private/google-modules/soc/gs/drivers/performance/lat_governors/gs_governor_utils.ko
+extra/private/google-modules/soc/gs/drivers/performance/lat_governors/gs_memlat_devfreq.ko
+extra/private/google-modules/soc/gs/drivers/performance/lat_governors/gs_dsulat_devfreq.ko
 extra/private/google-modules/soc/gs/drivers/iio/power/odpm.ko
 extra/private/google-modules/soc/gs/drivers/bts/bts.ko
 extra/private/google-modules/soc/gs/drivers/block/zram/zram_gs.ko
@@ -153,6 +155,7 @@ extra/private/google-modules/bms/max77779-charger.ko
 extra/private/google-modules/bms/p9221.ko
 extra/private/google-modules/bms/pca9468.ko
 extra/private/google-modules/bms/max1720x-battery.ko
+extra/private/google-modules/bms/max77779-fg.ko
 extra/private/google-modules/bms/max20339.ko
 extra/private/google-modules/bms/max77779-sp.ko
 extra/private/google-modules/bms/max77779_i2cm.ko
